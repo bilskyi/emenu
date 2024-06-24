@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}"> 
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites Restaurant</h1>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h2>Appetizers</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://omnomnom.dp.ua/image/cache/catalog/pizza_new/new4/pepperoni-500x500.jpg" alt="Pepperoni Pizza">
+                    <h3>Bruschetta</h3>
+                    <p>Toasted bread with tomatoes, basil, garlic, and olive oil.</p>
+                    <p class="price">$8.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/1200px-Salad_platter.jpg" alt="Salad Platter">
+                    <h3>Salad Platter</h3>
+                    <p>Fresh greens with assorted vegetables and vinaigrette dressing.</p>
+                    <p class="price">$9.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://cdn.loveandlemons.com/wp-content/uploads/2022/06/pasta-primavera.jpg" alt="Pasta Primavera">
+                    <h3>Pasta Primavera</h3>
+                    <p>Seasonal vegetables tossed with pasta in a light cream sauce.</p>
+                    <p class="price">$14.99</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://www.thespruceeats.com/thmb/HgM2h42z1HGEcSWkWk5CgAjDDpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-grill-salmon-2216658-hero-01-a9c948f8a238400ebaafc0caf509c7fa.jpg" alt="Grilled Salmon">
+                    <h3>Grilled Salmon</h3>
+                    <p>Salmon fillet with lemon-dill sauce and roasted vegetables.</p>
+                    <p class="price">$18.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.skinnytaste.com/wp-content/uploads/2022/01/Chicken-Piccata-8.jpg" alt="Chicken Piccata">
+                    <h3>Chicken Piccata</h3>
+                    <p>Pan-seared chicken breast with a tangy lemon-caper sauce.</p>
+                    <p class="price">$16.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

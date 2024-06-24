@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Light background for the page */
+}
+
+header {
+    background-color: #333; /* Dark background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 30px;
+}
+
+.menu-section {
+    margin-bottom: 40px; /* Add spacing between sections */
+}
+
+h2 {
+    text-align: center; /* Center section titles */
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjusted minmax */
+    gap: 30px; 
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions for hover effects */
+}
+
+.menu-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.menu-item img {
+    width: 100%;    
+    height: 200px;   /* Fixed height to prevent image from taking too much vertical space */
+    object-fit: cover; 
+    border-radius: 15px 15px 0 0; 
+    margin-bottom: 15px; 
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-weight: bold;
+}
